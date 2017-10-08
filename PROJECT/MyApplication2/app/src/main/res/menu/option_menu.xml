@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itmChangeBackground"
+        android:icon="@drawable/background"
+        android:showAsAction="always"
+        android:title="Change Background">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item
+                android:id="@+id/itmBlue"
+                android:icon="@drawable/blue"
+                android:title="BLUE Background"></item>
+            <item
+                android:id="@+id/itmRed"
+                android:icon="@drawable/red"
+                android:title="RED Background"></item>
+            <item
+                android:id="@+id/itmYellow"
+                android:icon="@drawable/yellow"
+                android:title="YELLOW Background"></item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/itmTextColor"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/text"
+        android:title="Change TextColor">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item
+                android:id="@+id/itmTextBlue"
+                android:icon="@drawable/blue"
+                android:title="TEXT BLUE"></item>
+            <item
+                android:id="@+id/itmTextRed"
+                android:icon="@drawable/red"
+                android:title="TEXT RED"></item>
+            <item
+                android:id="@+id/itmTextWhite"
+                android:icon="@drawable/white"
+                android:title="TEXT WHITE"></item>
+            <item
+                android:id="@+id/itmTextYellow"
+                android:icon="@drawable/yellow"
+                android:title="TEXT YELLOW"></item>
+            <item
+                android:id="@+id/itmTextGreen"
+                android:icon="@drawable/green"
+                android:title="TEXT GREEN"></item>
+            <item
+                android:id="@+id/itmTextGray"
+                android:icon="@drawable/gray"
+                android:title="TEXT GRAY"></item>
+            <item
+                android:id="@+id/itmTextCyan"
+                android:icon="@drawable/cyan"
+                android:title="TEXT CYAN"></item>
+            <item
+                android:id="@+id/itmTextOrange"
+                android:icon="@drawable/orange"
+                android:title="TEXT ORANGE"></item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/itmAbout"
+        android:icon="@drawable/white"
+        android:menuCategory="alternative"
+        android:title="About"></item>
+</menu>

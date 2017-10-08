@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/co_bg_layout"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@id/ll_rating"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearLayout1">
+
+            <include layout="@layout/layout_rating" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/co_bg_layout_blue">
+
+            <LinearLayout
+                android:id="@id/ll_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip"
+                android:layout_toLeftOf="@id/ll_search"
+                android:orientation="horizontal"
+                android:padding="10.0dip"
+                android:weightSum="3.0">
+
+                <Button
+                    android:id="@id/btn_select_vol"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/sel_spinner_shape"
+                    android:drawablePadding="10.0dip"
+                    android:drawableRight="@drawable/icon_spinner_down"
+                    android:paddingRight="10.0dip"
+                    android:text="@string/text_btn_select_vol"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@id/btn_select_letter"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2.0"
+                    android:background="@drawable/sel_btn_shape_state"
+                    android:text="@string/text_btn_select_letter"
+                    android:textColor="@color/co_text_focus_green" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/ll_search"
+                android:layout_width="wrap_content"
+                android:layout_height="55.0dip"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10.0dip"
+                android:paddingTop="15.0dip">
+
+                <ImageView
+                    android:id="@id/img_btn_search"
+                    android:layout_width="30.0dip"
+                    android:layout_height="30.0dip"
+                    android:src="@drawable/icon_search" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@id/fr_content_search"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/ll_rating"
+        android:background="@color/co_bg_layout">
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@id/lvListSongs"
+            style="@style/style_app_pull_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/linearLayout1" />
+    </RelativeLayout>
+</LinearLayout>

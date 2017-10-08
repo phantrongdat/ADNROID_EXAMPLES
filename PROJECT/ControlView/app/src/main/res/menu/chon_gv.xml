@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/CNPM"
+        android:title="CNPM"
+        app:showAsAction="always">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item
+                android:id="@+id/itemNMQuy"
+                android:title="Nguyễn Minh Qúy"></item>
+            <item
+                android:id="@+id/itemNVHau"
+                android:title="Nguyễn Văn Hậu">
+                <menu xmlns:android="http://schemas.android.com/apk/res/android">
+                    <item
+                        android:id="@+id/itemChon"
+                        android:title="Chọn"></item>
+                    <item
+                        android:id="@+id/itemKhongChon"
+                        android:title="Không Chọn"></item>
+                </menu>
+            </item>
+            <item
+                android:id="@+id/itemHQViet"
+                android:title="Hoàng Quốc Việt"></item>
+            <item
+                android:id="@+id/itemNTHNang"
+                android:title="Nguyễn Thị Hải Năng"></item>
+            <item
+                android:id="@+id/itemNTHuyen"
+                android:title="Ngô Thanh Huyền"></item>
+            <item
+                android:id="@+id/itemNHDiep"
+                android:title="Nguyễn Hoàng Điệp"></item>
+            <item
+                android:id="@+id/itemNHDong"
+                android:title="Nguyễn Hữu Đông"></item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/MANG"
+        android:title="MẠNG"
+        app:showAsAction="always">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item
+                android:id="@+id/itemBTHong"
+                android:title="Bùi Thế Hồng"></item>
+            <item
+                android:id="@+id/itemPMChuan"
+                android:title="Phạm Minh Chuẩn"></item>
+            <item
+                android:id="@+id/itemVXThang"
+                android:title="Vũ Xuân Thắng"></item>
+            <item
+                android:id="@+id/itemPQHung"
+                android:title="Phạm Quốc Hùng"></item>
+            <item
+                android:id="@+id/itemNVHanh"
+                android:title="Nguyễn Văn Hạnh"></item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/Nhung"
+        android:title="KTMT"
+        app:showAsAction="always">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item
+                android:id="@+id/itemPNHung"
+                android:title="Phạm Ngọc Hưng"></item>
+            <item
+                android:id="@+id/itemCBThanh"
+                android:title="Chu Bá Thành"></item>
+            <item
+                android:id="@+id/itemTTPhuong"
+                android:title="Trần Thị Phương"></item>
+            <item
+                android:id="@+id/itemVTGiang"
+                android:title="Vũ Thị Giang"></item>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/CNDD"
+        android:title="Cong nghe di dong">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item
+                android:id="@+id/itemNVHau1"
+                android:title="Nguyễn Văn Hậu"></item>
+            <item
+                android:id="@+id/itemHQViet1"
+                android:title="Hoàng Quốc Việt"></item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/CNWeb"
+        android:title="Cong nghe Web"></item>
+    <item
+        android:id="@+id/Tester"
+        android:title="Kiem thu Phan mem"></item>
+</menu>

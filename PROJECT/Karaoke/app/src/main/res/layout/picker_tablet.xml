@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:id="@id/picker_tablet" android:background="@drawable/bg_picker" android:layout_width="0.0dip" android:layout_height="30.0dip" android:layout_margin="8.0dip" android:layout_weight="0.5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.45">
+            <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Arirang" android:layout_centerInParent="true" />
+            <ToggleButton android:id="@id/btnAirirang" android:background="@drawable/left_picker_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" android:checked="true" android:textOn="" android:textOff="" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/leftSelected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/segment_arirang" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.55">
+            <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MusicCore" android:layout_centerInParent="true" />
+            <ToggleButton android:id="@id/btnMusiccore" android:background="@drawable/right_picker_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" android:checked="false" android:textOn="" android:textOff="" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/rightSelected" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/segment_musiccore" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

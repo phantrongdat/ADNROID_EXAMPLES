@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/co_bg_layout"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@id/ll_rating"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/icl_error_network">
+
+            <include layout="@layout/layout_rating" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@id/icl_error_network"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/co_bg_layout_blue">
+
+            <RelativeLayout
+                android:id="@id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="@string/nav_bar_notification"
+                    android:textColor="@android:color/white"
+                    android:textSize="16.0sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@id/btn_socia_vote"
+                    android:layout_width="40.0dip"
+                    android:layout_height="40.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:padding="5.0dip"
+                    android:src="@drawable/icon_btn_vote" />
+            </RelativeLayout>
+
+            <include
+                layout="@layout/layout_error_network"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout1" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@id/fr_content_search"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/ll_rating"
+        android:background="@color/co_bg_layout">
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@id/lvListNotification"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/rlErrorNetwork"
+            android:background="@color/co_bg_layout"
+            android:divider="@android:color/transparent" />
+    </RelativeLayout>
+</LinearLayout>

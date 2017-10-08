@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_mark_read_holo_light" android:id="@id/markAsUnread" android:title="@string/menu_as_unread" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_menu_trash_holo_light" android:id="@id/delete" android:title="@string/delete" android:showAsAction="always|withText" />
+</menu>

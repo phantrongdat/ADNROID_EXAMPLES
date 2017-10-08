@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/widget_loading"
+    android:layout_width="fill_parent"
+    android:layout_height="64.0sp"
+    android:background="@drawable/widget_conversation_read_selector">
+
+    <TextView
+        android:id="@id/loading_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16.0dip"
+        android:gravity="center"
+        android:textColor="@color/widget_loading"
+        android:textSize="14.0sp"
+        android:textStyle="bold" />
+</FrameLayout>

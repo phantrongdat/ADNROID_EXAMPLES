@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.dat17.drawableexample.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Drawalbe Example"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginLeft="5dp"
+        android:text="Shape"
+        android:id="@+id/btnShape"
+        android:textColor="#ffffff"
+        android:background="@drawable/shape_select" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:text="Shape2"
+        android:layout_marginLeft="5dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/select_2"
+        android:id="@+id/btnShape2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:text="Shape3"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/select_3"
+        android:textColor="#ffffff"
+        android:id="@+id/btnShape3" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transition"
+        android:id="@+id/button2"
+        android:textColor="#ffffff"
+        android:layout_gravity="right" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:text="New Button"
+        android:id="@+id/btnChoose"
+        android:textColor="#ffffff"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/shape_select"
+        android:layout_gravity="right" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button4"
+        android:background="@drawable/scale"
+        android:layout_gravity="right" />
+</LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button5"
+        android:layout_gravity="right" />
+</LinearLayout><LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button6"
+        android:layout_gravity="right" />
+</LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button7"
+        android:layout_gravity="right" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button8"
+        android:layout_gravity="right" />
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@id/tabHost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@id/topParent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/co_bg_layout">
+
+        <FrameLayout
+            android:id="@id/content_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/ads_admob"
+            android:layout_alignParentTop="true" />
+
+        <FrameLayout
+            android:id="@id/ads_admob"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/main"
+            android:background="#ff111111"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <com.google.android.gms.ads.AdView
+                android:id="@id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="@string/admod_banner_bottom" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@id/llTemp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#ffffc916"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="This is tab 1" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@id/main"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/co_bg_tab_menu"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="@color/co_divider" />
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</TabHost>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5fff9"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    TextView
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="right"
+    android:text="QUAN LY LOP"
+    android:textSize="30dp"
+    android:background="#0785fc"
+    android:textColor="#faf9f9"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    TextView
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="right|top"
+    android:text="SUA TTLOP"
+    android:textColor="#f12020"
+    android:background="#edfcb9"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="6dp"
+        android:background="#26d3fa"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Nhập thông tin mới cho lớp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff4709" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#c1f7ec">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:id="@+id/txtMaSV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:text="Mã lớp: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="101145"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ff0909" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:id="@+id/txtHoTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:text="Tên lớp: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edt2"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+        </TableRow>
+
+        <!--<TableRow-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:paddingRight="10dp"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/txtNgaySinh"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_column="0"-->
+        <!--android:text="Số SV:"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+        <!--<EditText-->
+        <!--android:id="@+id/edt3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_column="1" />-->
+        <!--</TableRow>-->
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="CẬP NHẬT" />
+
+</LinearLayout>

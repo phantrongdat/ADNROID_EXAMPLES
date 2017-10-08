@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="5dp"
+        android:background="#c6edae"
+        android:gravity="center"
+        android:text="KHOA CÔNG NGHỆ THÔNG TIN - UTEHY"
+        android:textColor="#f20000"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:weightSum="10">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="6dp"
+            android:layout_weight="3"
+            android:weightSum="10">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6dp"
+                android:layout_weight="5"
+                android:background="#7df559"
+                android:drawableTop="@drawable/large_ic_audio"
+                android:text="TÌM KIẾM SINH VIÊN"
+                android:textColor="#d62e00" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="#68baec"
+                android:drawableTop="@drawable/large_ic_attachment"
+                android:text="TÌM KIẾM ĐIỂM SV"
+                android:textColor="#d62e00" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="6dp"
+            android:layout_weight="3"
+            android:weightSum="10">
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6dp"
+                android:layout_weight="5"
+                android:background="#ba5fef"
+                android:drawableTop="@drawable/large_ic_camera"
+                android:text="TÌM KIẾM LỚP"
+                android:textColor="#d62e00" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="#e4c766"
+                android:drawableTop="@drawable/large_ic_compose"
+                android:text="TÌM KIẾM MÔN HỌC"
+                android:textColor="#d62e00" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#e4ffd5"
+            android:layout_weight="3">
+        </TableRow>
+    </LinearLayout>
+</LinearLayout>

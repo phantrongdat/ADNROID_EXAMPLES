@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Download"
+        android:icon="@drawable/ic_download_3"
+        app:showAsAction="always|collapseActionView"
+        android:title="Download" />
+    <item
+        android:id="@+id/Favorite"
+        android:icon="@drawable/ic_favorite"
+        app:showAsAction="always|collapseActionView"
+        android:title="Favorite" />
+</menu>

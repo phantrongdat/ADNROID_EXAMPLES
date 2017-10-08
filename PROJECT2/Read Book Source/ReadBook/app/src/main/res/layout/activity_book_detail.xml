@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context="info.hungmanh.readbook.BookDetail">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?actionBarSize"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp">
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgBook"
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/switzerland" />
+                    </android.support.v7.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/txtTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="Nghệ thuật giao tiếp"
+                            android:textColor="#333"
+                            android:textSize="18dp" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/tv5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_column="0"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="6dp"
+                                android:text="Tác giả:"
+                                android:textColor="#413F3F" />
+
+                            <TextView
+                                android:id="@+id/txtAuthor"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="6dp"
+                                android:text="Nguyễn Hùng Mạnh"
+                                android:textColor="#413F3F" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/tv6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_column="0"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="6dp"
+                                android:text="Giá bán:"
+                                android:textColor="#413F3F" />
+
+                            <TextView
+                                android:id="@+id/txtPrice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="6dp"
+                                android:text="0.00 đ"
+                                android:textColor="@color/text_gia" />
+                        </TableRow>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/btnRead"
+                                android:layout_width="wrap_content"
+                                android:layout_height="36dp"
+                                android:layout_marginLeft="5dp"
+                                android:background="@drawable/button_read_book"
+                                android:text="Đọc"
+                                android:textColor="#ffffff" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#c4c1c1"></TableRow>
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Giới thiệu"
+                    android:textColor="#000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/txtDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Chắc chắn những ai đủ nhận thức, đã từng đọc Tấm Cám, đều cảm thấy khó hiểu, vì sao cô Tấm nổi tiếng hiền dịu lại nói những câu nói rất độc ác như Lấy tranh chồng chị, chị khoét mắt ra
+        \nhay làm những việc cực kỳ ác độc, phi nhân tính như lấy nước sôi luộc em, làm thành mắm rồi gửi về cho dì - người mẹ ruột của em ăn hàng ngày.
+         \nNgược lại thì, Cám thật ra chưa làm gì quá độc ác với Tấm,
+         \ntrừ việc chặt cây cau làm Tấm ngã xuống ao
+        "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="15dp" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#c4c1c1"></TableRow>
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Sách liên quan"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#414141"
+                    android:textSize="17dp" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/lstBook"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#f8f8f8"
+                    android:divider="@null"
+                    android:listSelector="@android:color/transparent" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

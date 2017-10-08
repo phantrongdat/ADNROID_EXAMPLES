@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggeny"
+    android:paddingBottom="50dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:paddingLeft="20dp"
+        android:text="TEST TITLE ANONYMOUS
+        PHAN TRONG DAT ALONE PTD ~>>>>>>>>"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#591d1b" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:paddingTop="0dp"
+        android:text="April 8,2016, 9:51 AM"
+        android:textColor="#fc7e2f"
+        android:textSize="16dp"
+        android:paddingRight="15dp"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText"
+        android:layout_below="@+id/textView2"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:paddingLeft="10dp"
+        android:paddingTop="12dp"
+        android:text="TEST TEXXT
+        phan trong dat
+        multiedittext
+        a
+        a
+        a
+        a"
+        android:textColor="#400606"
+        android:textSize="14dp" />
+</RelativeLayout>
+
+

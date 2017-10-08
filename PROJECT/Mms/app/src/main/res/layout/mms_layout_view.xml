@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/mms_view"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:paddingBottom="7.0dip"
+    android:paddingTop="7.0dip">
+
+    <ImageView
+        android:id="@id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/attachment_selector"
+        android:maxHeight="@dimen/mms_inline_attachment_size"
+        android:maxWidth="@dimen/mms_inline_attachment_size"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@id/play_slideshow_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/mms_play_btn"
+        android:visibility="gone" />
+</FrameLayout>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="info.trongdat.keyword.MainActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edt1"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edt_background"
+                android:ems="1"
+                android:gravity="center"
+                android:hint="1"
+                android:inputType="textPersonName"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#3a3f51b5"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt2"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edt_background"
+                android:ems="1"
+                android:gravity="center"
+                android:hint="2"
+                android:inputType="textPersonName"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#3a3f51b5"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt3"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edt_background"
+                android:ems="1"
+                android:gravity="center"
+                android:hint="3"
+                android:inputType="textPersonName"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#3a3f51b5"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt4"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edt_background"
+                android:ems="1"
+                android:gravity="center"
+                android:hint="4"
+                android:inputType="textPersonName"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#3a3f51b5"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt5"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edt_background"
+                android:ems="1"
+                android:gravity="center"
+                android:hint="5"
+                android:inputType="textPersonName"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#3a3f51b5"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt6"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edt_background"
+                android:ems="1"
+                android:gravity="center"
+                android:hint="6"
+                android:inputType="textPersonName"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#3a3f51b5"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt7"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edt_background"
+                android:ems="1"
+                android:gravity="center"
+                android:hint="7"
+                android:inputType="textPersonName"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#3a3f51b5"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt8"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edt_background"
+                android:ems="1"
+                android:gravity="center"
+                android:hint="8"
+                android:inputType="textPersonName"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#3a3f51b5"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt9"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edt_background"
+                android:ems="1"
+                android:gravity="center"
+                android:hint="9"
+                android:inputType="textPersonName"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#3a3f51b5"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt10"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edt_background"
+                android:ems="1"
+                android:gravity="center"
+                android:hint="10"
+                android:inputType="textPersonName"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#3a3f51b5"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt11"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edt_background"
+                android:ems="1"
+                android:gravity="center"
+                android:hint="11"
+                android:inputType="textPersonName"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#3a3f51b5"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt12"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edt_background"
+                android:ems="1"
+                android:gravity="center"
+                android:hint="12"
+                android:inputType="textPersonName"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#3a3f51b5"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt13"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edt_background"
+                android:ems="1"
+                android:gravity="center"
+                android:hint="13"
+                android:inputType="text"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#3a3f51b5"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+        </TableRow>
+    </HorizontalScrollView>
+
+    <ListView
+        android:id="@+id/lstKeyWord"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"></ListView>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@id/BtnSubOne"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0.0dip"
+            android:layout_height="48.0dip"
+            android:layout_weight="1.0"
+            android:drawableLeft="@drawable/ic_send_holo_light"
+            android:paddingLeft="24.0dip"
+            android:soundEffectsEnabled="true"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="1.0dip"
+            android:layout_height="fill_parent"
+            android:background="#ffdcdcdc" />
+
+        <Button
+            android:id="@id/BtnSubTwo"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0.0dip"
+            android:layout_height="48.0dip"
+            android:layout_weight="1.0"
+            android:drawableLeft="@drawable/ic_send_holo_light"
+            android:paddingLeft="24.0dip"
+            android:soundEffectsEnabled="true"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="1.0dip"
+            android:layout_height="fill_parent"
+            android:background="#ffdcdcdc" />
+
+        <Button
+            android:id="@id/BtnSubThree"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0.0dip"
+            android:layout_height="48.0dip"
+            android:layout_weight="1.0"
+            android:drawableLeft="@drawable/ic_send_holo_light"
+            android:paddingLeft="24.0dip"
+            android:soundEffectsEnabled="true"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

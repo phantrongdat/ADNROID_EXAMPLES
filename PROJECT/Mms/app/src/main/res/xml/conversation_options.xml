@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_notification_settings_title" android:key="convopt_key_notifications_category">
+        <CheckBoxPreference android:persistent="false" android:enabled="false" android:title="@string/pref_notification_settings_title" android:key="convopt_key_notification_enabled" android:defaultValue="true" />
+        <RingtonePreference android:persistent="false" android:enabled="false" android:title="@string/pref_title_notification_ringtone" android:key="convopt_key_notification_ringtone" android:dependency="convopt_key_notification_enabled" android:defaultValue="content://settings/system/notification_sound" android:ringtoneType="notification" />
+        <CheckBoxPreference android:persistent="false" android:enabled="false" android:title="@string/pref_title_notification_vibrateWhen" android:key="convopt_key_vibrate" android:dependency="convopt_key_notification_enabled" android:defaultValue="false" />
+        <ListPreference android:persistent="false" android:enabled="false" android:entries="@array/pref_mms_notification_vibrate_pattern_entries" android:title="@string/pref_title_mms_notification_vibrate_pattern" android:key="convopt_key_vibrate_pattern" android:dependency="convopt_key_vibrate" android:defaultValue="" android:dialogTitle="@string/pref_title_mms_notification_vibrate_pattern" android:entryValues="@array/pref_mms_notification_vibrate_pattern_values" />
+        <Preference android:persistent="false" android:enabled="false" android:title="@string/pref_title_reset_convopt_to_default" android:key="convopt_key_reset_to_default" android:summary="@string/pref_summary_reset_convopt_to_default" />
+    </PreferenceCategory>
+</PreferenceScreen>

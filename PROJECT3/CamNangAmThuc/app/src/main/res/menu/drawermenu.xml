@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_menu">
+        <item
+            android:id="@+id/navDayNauAn"
+            android:icon="@android:drawable/star_big_on"
+            android:title="Dạy nấu ăn" />
+        <item
+            android:id="@+id/navCamNang"
+            android:icon="@android:drawable/star_big_on"
+            android:title="Cẩm nang ẩm thực" />
+
+        <item
+            android:id="@+id/navVanHoaAmThuc"
+            android:icon="@android:drawable/star_big_on"
+            android:title="Văn hóa ẩm thực" />
+        <item
+            android:id="@+id/navAmThucSucKhoe"
+            android:icon="@android:drawable/star_big_on"
+            android:title="Ẩm thực và sức khỏe" />
+        <item
+            android:id="@+id/navGocSangTao"
+            android:icon="@android:drawable/star_big_on"
+            android:title="Góc sáng tạo" />
+
+    </group>
+
+    <group android:id="@+id/group_settings_id">
+
+        <item
+            android:id="@+id/nav_item_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="Cài đặt" />
+
+        <item
+            android:id="@+id/nav_item_helps"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Trợ giúp" />
+
+    </group>
+</menu>

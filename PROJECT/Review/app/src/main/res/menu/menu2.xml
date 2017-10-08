@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itm1"
+        android:title="Count1"></item>
+    <item
+        android:id="@+id/itm2"
+        android:title="Count2"></item>
+    <item
+        android:id="@+id/itm3"
+        android:title="Count3"></item>
+    <item
+        android:id="@+id/itm4"
+        android:title="Count1"></item>
+    <item
+        android:id="@+id/itm5"
+        android:title="Count2"></item>
+    <item
+        android:id="@+id/itm6"
+        android:title="Count3"></item>
+</menu>

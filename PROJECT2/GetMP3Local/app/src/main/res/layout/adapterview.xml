@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#3f000000"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dvd"
+        android:layout_marginLeft="3dp"
+        android:background="#ffffff"
+
+        android:id="@+id/icondisc" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="275dp"
+
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/textAppearanceLarge"
+            android:textSize="15dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Chúng ta không thuộc về nhau"
+            android:textColor="#ffffff"
+            android:singleLine="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:layout_marginLeft="4dp"
+            android:id="@+id/txtTile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Sơn Tùng _Mtp"
+            android:textColor="#d4cece"
+            android:layout_marginLeft="4dp"
+            android:id="@+id/txtsinger" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/next"
+      />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vertical_ntb">
+        <item>#ffffff</item>
+        <item>#ffffff</item>
+        <item>#ffffff</item>
+        <item>#dd6495</item>
+        <item>#8c9f58</item>
+        <item>#563d91</item>
+        <item>#56342e</item>
+        <item>#72d3b4</item>
+    </string-array>
+
+    <string-array name="vertical">
+        <item>#4e9f6d</item>
+        <item>#76afcf</item>
+        <item>#f9bb72</item>
+        <item>#dd6495</item>
+        <item>#8c9f58</item>
+        <item>#563d91</item>
+        <item>#56342e</item>
+        <item>#72d3b4</item>
+    </string-array>
+</resources>

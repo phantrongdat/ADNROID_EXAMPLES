@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dcf2a8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SUCCESS !"
+        android:textSize="35dp"
+        android:id="@+id/tvSuccess"
+        android:gravity="center"
+        android:background="#48a7fa"
+        android:textColor="#f2e30e"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Gửi thành công với thông tin:"
+        android:gravity="center"
+        android:id="@+id/tvGuiThongTin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Họ Tên: "
+        android:id="@+id/tvHoTenGui" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CMND: "
+        android:id="@+id/tvCMNDGui" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bằng cấp: "
+        android:id="@+id/tvBangCapGui" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sở Thích: "
+        android:id="@+id/tvSoThichGui" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Thông Tin Thêm: "
+        android:id="@+id/tvThongTinThemGui" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quay lại"
+        android:id="@+id/btQuayLai"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

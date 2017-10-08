@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:paddingBottom="6dp"
+android:paddingTop="6dp">
+
+<ImageView
+    android:id="@+id/imgGioiTinh"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:src="@drawable/large_ic_text" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_toLeftOf="@+id/imgGioiTinh"
+    android:layout_toStartOf="@+id/imgGioiTinh"
+    android:orientation="vertical"
+    android:paddingLeft="10dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã: " />
+
+        <TextView
+            android:id="@+id/txtMaSV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10114136"
+            android:textColor="#cf6741"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lớp: " />
+
+        <TextView
+            android:id="@+id/txtMaLop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="101145"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Họ tên: " />
+
+        <TextView
+            android:id="@+id/txtHoTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phan Trọng Đạt"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </TableRow>
+
+</LinearLayout>
+
+</RelativeLayout>
+

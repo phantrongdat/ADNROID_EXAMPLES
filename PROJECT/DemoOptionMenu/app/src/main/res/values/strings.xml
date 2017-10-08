@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DemoOptionMenu</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="color">Color</string>
+    	<string name="blue">Blue</string>
+    	<string name="purple">Purple</string>
+    	<string name="green">Green</string>
+    	<string name="yellow">Yellow</string>
+    	<string name="red">Red</string>
+    	
+    <string name="font">Font</string>
+    	<string name="arial">Arial</string>
+    	<string name="times">Times New Roman</string>
+    	<string name="roboto">Roboto</string>
+    	<string name="comic">Comic</string>
+    	<string name="century">Century</string>
+      
+      
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/bg_btn_shape_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:minWidth="200.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="12.0sp" android:textColor="@color/co_text_nomal_gray" android:gravity="center_vertical" android:id="@id/btn_like_fanpage" android:background="@drawable/sel_btn_dialog_white_conner_top" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/di_btn_height" android:text="@string/text_like_fanpage" android:drawableLeft="@drawable/icon_like_hand" android:drawablePadding="10.0dip" />
+            <View android:background="@color/co_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <Button android:textSize="12.0sp" android:textColor="@color/co_text_nomal_gray" android:gravity="center_vertical" android:id="@id/btn_vote_app" android:background="@drawable/sel_btn_dialog_white" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/di_btn_height" android:text="@string/text_vote_app" android:drawableLeft="@drawable/icon_vote" android:drawablePadding="5.0dip" />
+            <View android:background="@color/co_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <Button android:textSize="12.0sp" android:textColor="@color/co_text_nomal_gray" android:gravity="center" android:id="@id/btn_cancel" android:background="@drawable/sel_btn_dialog_gray_conner_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/di_btn_height" android:text="@string/choise_cancel" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

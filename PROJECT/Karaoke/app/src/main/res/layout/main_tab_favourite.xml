@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/co_bg_layout"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@id/ll_rating"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearLayout1">
+
+            <include layout="@layout/layout_rating" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/co_bg_layout_blue"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip"
+                android:orientation="horizontal"
+                android:padding="10.0dip"
+                android:paddingLeft="20.0dip">
+
+                <RelativeLayout
+                    android:id="@id/btn_fav_backup"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="5.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/sel_btn_fav_state">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:enabled="false"
+                        android:text="@string/favbackup"
+                        android:textColor="@color/co_text_focus_green"
+                        android:textSize="@dimen/di_text_fav" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10.0dip"
+                        android:enabled="false"
+                        android:src="@drawable/icon_backup" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@id/btn_fav_import"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/sel_btn_fav_state">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:enabled="false"
+                        android:text="@string/favimport"
+                        android:textColor="@color/co_text_focus_green"
+                        android:textSize="@dimen/di_text_fav" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10.0dip"
+                        android:enabled="false"
+                        android:src="@drawable/icon_download" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <include
+                layout="@layout/layout_error_network"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout1" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@id/fr_content_search"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/rlErrorNetwork"
+        android:background="@color/co_bg_layout">
+
+        <LinearLayout
+            android:id="@id/ll_search_no_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10.0dip"
+                android:text="@string/text_bg_fav"
+                android:textColor="@color/co_text_nomal_gray_blur"
+                android:textSize="18.0sp" />
+
+            <ImageView
+                android:layout_width="300.0dip"
+                android:layout_height="250.0dip"
+                android:layout_gravity="top|center"
+                android:src="@drawable/bg_tutorial_fav" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@id/lvListSongs"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent"
+            android:divider="@android:color/transparent" />
+    </RelativeLayout>
+</LinearLayout>

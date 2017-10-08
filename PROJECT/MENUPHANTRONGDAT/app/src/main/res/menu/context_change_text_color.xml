@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itmTextBlue"
+        android:title="TEXT BLUE"
+        android:icon="@drawable/blue"></item>
+    <item
+        android:id="@+id/itmTextRed"
+        android:title="TEXT RED"
+        android:icon="@drawable/red"></item>
+    <item
+        android:id="@+id/itmTextWhite"
+        android:title="TEXT WHITE"
+        android:icon="@drawable/white"></item>
+    <item
+        android:id="@+id/itmTextYellow"
+        android:title="TEXT YELLOW"
+        android:icon="@drawable/yellow"></item>
+    <item
+        android:id="@+id/itmTextGreen"
+        android:title="TEXT GREEN"
+        android:icon="@drawable/green"></item>
+    <item
+        android:id="@+id/itmTextGray"
+        android:title="TEXT GRAY"
+        android:icon="@drawable/gray"></item>
+    <item
+        android:id="@+id/itmTextCyan"
+        android:title="TEXT CYAN"
+        android:icon="@drawable/cyan"></item>
+    <item
+        android:id="@+id/itmTextOrange"
+        android:title="TEXT ORANGE"
+        android:icon="@drawable/orange"></item>
+</menu>

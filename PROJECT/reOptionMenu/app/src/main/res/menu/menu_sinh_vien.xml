@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itmPhanTrongDat"
+        android:icon="@drawable/dat"
+        android:showAsAction="always"
+        android:title="Phan Trong Dat"></item>
+    <item
+        android:id="@+id/itmTaDuyChien"
+        android:icon="@drawable/chien"
+        android:title="Ta Duy Chien"></item>
+    <item
+        android:id="@+id/itmVuDucHanh"
+        android:icon="@drawable/hanh"
+        android:title="Vu Duc Hanh"></item>
+</menu>

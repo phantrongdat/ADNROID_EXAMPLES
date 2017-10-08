@@ -1,0 +1,17 @@
+<Products>
+    <Product>
+        <Id>1</Id>
+        <Name>Pen</Name>
+        <Price>10000</Price>
+    </Product>
+    <Product>
+        <Id>2</Id>
+        <Name>Apple</Name>
+        <Price>20000000</Price>
+    </Product>
+    <Product>
+        <Id>3</Id>
+        <Name>IPhone</Name>
+        <Price>100000000</Price>
+    </Product>
+</Products>

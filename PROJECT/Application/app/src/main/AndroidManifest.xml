@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dat17.application">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Main"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BasicControl" />
+        <activity android:name=".CheckBoxControl" />
+        <activity android:name=".RadioButtonControl" />
+        <activity android:name=".OptionMN" />
+        <activity android:name=".ContextMN" />
+        <activity android:name=".SpinnerControl" />
+        <activity android:name=".ListViewControl" />
+        <activity android:name=".SQLiteExample" />
+        <activity android:name=".TabHostControl" />
+        <activity android:name=".AccountManager"></activity>
+    </application>
+
+</manifest>

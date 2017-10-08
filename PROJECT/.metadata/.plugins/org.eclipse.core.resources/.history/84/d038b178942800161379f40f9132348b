@@ -1,0 +1,57 @@
+package vn.dat.digitalonscreencontroldemo;
+
+import org.anddev.andengine.engine.Engine;
+import org.anddev.andengine.engine.camera.Camera;
+import org.anddev.andengine.engine.options.EngineOptions;
+import org.anddev.andengine.engine.options.EngineOptions.ScreenOrientation;
+import org.anddev.andengine.engine.options.resolutionpolicy.RatioResolutionPolicy;
+import org.anddev.andengine.entity.scene.Scene;
+import org.anddev.andengine.entity.scene.background.ColorBackground;
+import org.anddev.andengine.entity.util.FPSLogger;
+import org.anddev.andengine.opengl.texture.Texture;
+import org.anddev.andengine.opengl.texture.region.TextureRegion;
+import org.anddev.andengine.opengl.texture.region.TiledTextureRegion;
+import org.anddev.andengine.ui.activity.BaseGameActivity;
+
+public class MainActivity extends BaseGameActivity {
+	private static final int CAMERA_WIDTH = 480;
+	private static final int CAMERA_HEIGHT = 853;
+	private Texture texture;
+	private TiledTextureRegion textureRegion;
+	
+	private Texture mOnScreenControlTexture;
+	private TextureRegion mOnScreenControlBaseTextureRegion;
+	private TextureRegion mOnScreenControlKnobTextureRegion;
+	
+	
+	@Override
+	public Engine onLoadEngine() {
+		// TODO Auto-generated method stub
+		Camera camera=new Camera(0, 0, CAMERA_WIDTH, CAMERA_HEIGHT);
+		EngineOptions engineOptions=new EngineOptions(true, ScreenOrientation.PORTRAIT, new RatioResolutionPolicy(CAMERA_WIDTH,CAMERA_HEIGHT), camera);
+		
+		return new Engine(engineOptions);
+	}
+
+	@Override
+	public void onLoadResources() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Scene onLoadScene() {
+		// TODO Auto-generated method stub
+		this.mEngine.registerUpdateHandler(new FPSLogger());
+		Scene scene=new Scene();
+		scene.setBackground(new ColorBackground(0.25f, 0.5f, 0.6f));
+		
+		return scene;
+	}
+
+	@Override
+	public void onLoadComplete() {
+		// TODO Auto-generated method stub
+		
+	}
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/llRowListSong" android:background="@drawable/sel_btn_dialog_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/co_text_nomal_gray" android:ellipsize="end" android:id="@id/tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:singleLine="true" android:layout_centerVertical="true" />
+    <View android:background="@color/co_text_nomal_gray_blur" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

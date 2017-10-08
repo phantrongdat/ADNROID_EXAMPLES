@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/widget_conversation"
+    android:layout_width="fill_parent"
+    android:layout_height="48.0dip">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="8.0dip">
+
+        <TextView
+            android:id="@id/from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="6.0dip"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textAppearance="?android:textAppearanceMediumInverse"
+            android:textSize="16.0sp" />
+
+        <TextView
+            android:id="@id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_marginTop="2.0dip"
+            android:singleLine="true"
+            android:textAppearance="?android:textAppearanceSmallInverse"
+            android:textSize="12.0sp" />
+
+        <TextView
+            android:id="@id/subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5.0dip"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textAppearance="?android:textAppearanceSmallInverse"
+            android:textSize="12.0sp" />
+    </RelativeLayout>
+</FrameLayout>

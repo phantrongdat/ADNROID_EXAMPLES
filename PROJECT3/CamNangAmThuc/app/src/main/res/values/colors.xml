@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f37c21</color>
+    <color name="colorPrimaryDark">#d97122</color>
+    <color name="colorAccent">#b4f321</color>
+    <color name="foreground_material_light">#f37c21</color>
+    <color name="black">#000000</color>
+</resources>

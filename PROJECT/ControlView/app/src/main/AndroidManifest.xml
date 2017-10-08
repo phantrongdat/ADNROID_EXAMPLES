@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alone.controlview" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DatePickerView" >
+        </activity>
+        <activity android:name=".TimePickerView" >
+        </activity>
+        <activity android:name=".DatePickerDialogView" >
+        </activity>
+        <activity android:name=".TimePickerDialogView" >
+        </activity>
+        <activity android:name=".MyTask" >
+        </activity>
+        <activity android:name=".MenuView" >
+        </activity>
+        <activity android:name=".ContextMenuView" >
+        </activity>
+        <activity android:name=".Calculator" >
+        </activity>
+        <activity android:name=".Sending" >
+        </activity>
+        <activity android:name=".Sending_Success" >
+        </activity>
+        <activity android:name=".MyListView" >
+        </activity>
+        <activity android:name=".MySpinner" >
+        </activity>
+        <activity android:name=".MyCheckBox" >
+        </activity>
+        <activity android:name=".MyRadioButton" >
+        </activity>
+        <activity
+            android:name=".MyTab"
+            android:label="@string/title_activity_my_tab" >
+        </activity>
+        <activity android:name=".SubMenu" >
+        </activity>
+        <activity android:name=".PopupMenu" >
+        </activity>
+    </application>
+
+</manifest>

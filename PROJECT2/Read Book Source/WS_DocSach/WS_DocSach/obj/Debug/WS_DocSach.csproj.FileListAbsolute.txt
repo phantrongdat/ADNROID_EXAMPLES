@@ -1,0 +1,138 @@
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\ApplicationInsights.config
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\roslyn\csc.exe
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\roslyn\System.Collections.Immutable.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\roslyn\vbc.exe
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\roslyn\VBCSCompiler.exe
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\roslyn\VBCSCompiler.exe.config
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\WS_DocSach.dll.config
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\WS_DocSach.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\WS_DocSach.pdb
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\Microsoft.AI.DependencyCollector.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\Microsoft.AI.Web.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\Microsoft.AI.WindowsServer.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\Microsoft.ApplicationInsights.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\Microsoft.Web.Infrastructure.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\System.Web.Helpers.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\System.Web.Mvc.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\System.Web.Razor.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\System.Web.Webpages.Deployment.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\System.Web.Webpages.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\System.Web.Webpages.Razor.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\Microsoft.AI.DependencyCollector.xml
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\Microsoft.AI.Web.xml
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\Microsoft.AI.WindowsServer.xml
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\Microsoft.ApplicationInsights.xml
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\System.Web.Razor.xml
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\System.Web.Webpages.xml
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\System.Web.Webpages.Deployment.xml
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\System.Web.Webpages.Razor.xml
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\System.Web.Helpers.xml
+D:\Project\Webservice\WS_DocSach\WS_DocSach\bin\System.Web.Mvc.xml
+D:\Project\Webservice\WS_DocSach\WS_DocSach\obj\Debug\WS_DocSach.csprojResolveAssemblyReference.cache
+D:\Project\Webservice\WS_DocSach\WS_DocSach\obj\Debug\WS_DocSach.dll
+D:\Project\Webservice\WS_DocSach\WS_DocSach\obj\Debug\WS_DocSach.pdb
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\ApplicationInsights.config
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\roslyn\csc.exe
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\roslyn\vbc.exe
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\roslyn\VBCSCompiler.exe
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\WS_DocSach.dll.config
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\WS_DocSach.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\WS_DocSach.pdb
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\Microsoft.AI.Web.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\System.Web.Helpers.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\System.Web.Mvc.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\System.Web.Razor.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\System.Web.Webpages.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\System.Web.Webpages.Razor.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\Microsoft.AI.Web.xml
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\System.Web.Razor.xml
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\System.Web.Webpages.xml
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\System.Web.Webpages.Razor.xml
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\System.Web.Helpers.xml
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\bin\System.Web.Mvc.xml
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\obj\Debug\WS_DocSach.csprojResolveAssemblyReference.cache
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\obj\Debug\WS_DocSach.dll
+C:\Users\Alone\Desktop\WS_DocSach\WS_DocSach\obj\Debug\WS_DocSach.pdb
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\ApplicationInsights.config
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\roslyn\csc.exe
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\roslyn\vbc.exe
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\roslyn\VBCSCompiler.exe
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\WS_DocSach.dll.config
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\WS_DocSach.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\WS_DocSach.pdb
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\Microsoft.AI.Web.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\System.Web.Helpers.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\System.Web.Mvc.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\System.Web.Razor.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\System.Web.Webpages.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\System.Web.Webpages.Razor.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\Microsoft.AI.Web.xml
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\System.Web.Razor.xml
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\System.Web.Webpages.xml
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\System.Web.Webpages.Razor.xml
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\System.Web.Helpers.xml
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\bin\System.Web.Mvc.xml
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\obj\Debug\WS_DocSach.csprojResolveAssemblyReference.cache
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\obj\Debug\WS_DocSach.dll
+C:\Users\Alone\Desktop\Read Book Source\WS_DocSach\WS_DocSach\obj\Debug\WS_DocSach.pdb

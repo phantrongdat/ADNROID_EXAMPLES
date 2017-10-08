@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sub_canvas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.trongdat.subject2review.SubCanvas">
+
+    <ImageView
+        android:id="@+id/imgShape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/button_background"
+                android:text="Rectangle"
+                android:id="@+id/btnRectangle"
+                android:onClick="clickHandler"
+                android:textColor="#fff" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/button_background"
+                android:text="Square"
+                android:id="@+id/btnSquare"
+                android:onClick="clickHandler"
+                android:textColor="#fff" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/button_background"
+                android:text="Circle"
+                android:id="@+id/btnCircle"
+                android:onClick="clickHandler"
+                android:textColor="#fff" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/button_background"
+                android:text="Oval"
+                android:id="@+id/btnOval"
+                android:onClick="clickHandler"
+                android:textColor="#fff" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/button_background"
+                android:text="Triangle"
+                android:id="@+id/btnTriangle"
+                android:onClick="clickHandler"
+                android:textColor="#fff" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

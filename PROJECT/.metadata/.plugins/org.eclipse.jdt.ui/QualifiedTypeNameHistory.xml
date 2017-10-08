@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.anddev.andengine.entity.text.Text"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.entity.modifier.AlphaModifier"/>
+<fullyQualifiedTypeName name="android.support.v7.app.AppCompatActivity"/>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="vn.dat.gameengine.MainActivity"/>
+<fullyQualifiedTypeName name="android.os.CountDownTimer"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.entity.sprite.AnimatedSprite"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.opengl.texture.region.TextureRegion"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.opengl.texture.region.TiledTextureRegion"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.engine.camera.hud.controls.AnalogOnScreenControl.IAnalogOnScreenControlListener"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.engine.camera.hud.controls.AnalogOnScreenControl"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.ui.activity.BaseGameActivity"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.engine.handler.IUpdateHandler"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.entity.util.FPSLogger"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.entity.scene.background.ColorBackground"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.engine.camera.Camera"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.engine.options.EngineOptions"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.engine.options.EngineOptions.ScreenOrientation"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.engine.options.resolutionpolicy.IResolutionPolicy"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.engine.options.resolutionpolicy.RatioResolutionPolicy"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.engine.Engine"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.opengl.texture.Texture"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.opengl.texture.TextureOptions"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.opengl.texture.region.TextureRegionFactory"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.entity.sprite.Sprite"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.entity.modifier.SequenceEntityModifier"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.entity.modifier.ParallelEntityModifier"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.entity.modifier.RotationModifier"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.entity.modifier.ScaleModifier"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.engine.camera.hud.controls.DigitalOnScreenControl"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.engine.camera.hud.controls.BaseOnScreenControl.IOnScreenControlListener"/>
+<fullyQualifiedTypeName name="javax.microedition.khronos.opengles.GL10"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.engine.handler.physics.PhysicsHandler"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="vn.dat.digitalonscreencontroldemo.MainActivity"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.entity.layer.tiled.tmx.TMXTiledMap"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.entity.layer.tiled.tmx.TMXLayer"/>
+<fullyQualifiedTypeName name="vn.dat.digitalonscreencontroldemo.TaiBanDo"/>
+<fullyQualifiedTypeName name="org.anddev.andengine.entity.scene.Scene"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

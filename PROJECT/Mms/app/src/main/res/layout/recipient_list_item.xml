@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1.0"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <view
+            android:id="@id/avatar"
+            class="android.widget.QuickContactBadge"
+            android:layout_width="@dimen/avatar_width_height"
+            android:layout_height="@dimen/avatar_width_height"
+            android:layout_alignParentLeft="true" />
+
+        <LinearLayout
+            android:id="@id/message_block"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/avatar"
+            android:background="@drawable/hairline_left"
+            android:minHeight="@dimen/avatar_width_height"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/message_item_text_padding_left_right"
+                android:paddingRight="@dimen/message_item_text_padding_left_right"
+                android:paddingTop="@dimen/message_item_text_padding_top"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@drawable/list_item_font_primary"
+                android:textSize="16.0sp" />
+
+            <TextView
+                android:id="@id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listitem_background"
+                android:paddingLeft="@dimen/message_item_text_padding_left_right"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@drawable/list_item_font_secondary" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

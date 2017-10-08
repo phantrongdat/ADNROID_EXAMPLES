@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	        
+	<RelativeLayout
+	    android:id="@+id/toplayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:paddingBottom="5dp"
+	    android:paddingLeft="5dp"
+		android:background="@drawable/titlebackground"
+	    android:paddingTop="5dp" >
+		
+
+		<EditText android:id="@+id/title"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="20dp"
+			android:textColor="#866c22"
+		    android:hint="@string/no_title"
+		    android:background="@android:color/transparent" 	
+		    android:layout_marginLeft="20dp"
+			android:layout_marginRight="35dp"
+			android:singleLine="true"
+			android:imeOptions="actionNext"/>
+
+	</RelativeLayout>
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_below="@+id/toplayout"
+	android:background="@drawable/background"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="April 8,2016, 9:51 AM"
+		android:id="@+id/textView"
+		android:textSize="16dp"
+		android:layout_marginTop="25dp"
+		android:layout_marginRight="60dp"
+		android:textColor="#fc992f"
+		android:layout_gravity="right" />
+
+	<view
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/body"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    class="com.example.alone.noteexample.NoteEdit$LineEditText"
+	    android:background="@android:color/transparent"
+	    android:fadingEdge="vertical"
+	    android:gravity="top"
+		android:paddingTop="3dp"
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="50dp"
+		android:layout_marginBottom="50dp"
+	    android:scrollbars="vertical"
+	    android:textSize="16dp"
+		android:textColor="#866c22"/>
+</LinearLayout>
+
+</RelativeLayout>

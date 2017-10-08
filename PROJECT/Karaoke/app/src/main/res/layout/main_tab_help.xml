@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/ScrollView01" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="#ff4c66a4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/fanpagetextview" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/fanpagetext" android:layout_weight="10.0" />
+            <ImageView android:id="@id/imageView1" android:layout_width="12.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:src="@drawable/item_more" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ImageView android:id="@id/helpimage1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/help1" android:adjustViewBounds="true" />
+        <ImageView android:id="@id/helpimage2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/help2" android:adjustViewBounds="true" />
+    </LinearLayout>
+</ScrollView>

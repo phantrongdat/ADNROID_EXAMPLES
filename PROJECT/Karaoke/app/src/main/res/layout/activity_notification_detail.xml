@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/co_bg_layout_blue" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="5.0dip">
+        <ImageView android:id="@id/btn_back" android:padding="5.0dip" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/icon_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/nav_bar_notification_detail" android:singleLine="true" android:layout_toLeftOf="@id/btn_share" android:layout_toRightOf="@id/btn_back" android:layout_centerInParent="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btn_share" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/btn_share" android:layout_alignParentRight="true">
+            <ImageView android:clickable="false" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/icon_share" />
+            <TextView android:enabled="false" android:textSize="12.0sp" android:textColor="@android:color/white" android:background="@android:color/transparent" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action_share" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/linearLayout1" layout="@layout/layout_error_network" />
+    <WebView android:id="@id/webView" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

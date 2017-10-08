@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aw_dark">#3d7411</color>
+    <color name="aw_light">#de6611</color>
+    <color name="aw_expanded">#8507a7</color>
+    <color name="aw_progress">#d73e02</color>
+    <color name="aw_shadow">#50e43601</color>
+    <color name="aw_cross_default">#e2281e</color>
+    <color name="aw_cross_overlapped">#1876ce</color>
+</resources>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="RBModel">
+  <DataContextMoniker Name="/RBModelDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1736db27-2b5a-4c37-a931-2f2757b3001a" absoluteBounds="6.25, 1.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/RBModelDataContext/Chuong" />
+      <nestedChildShapes>
+        <elementListCompartment Id="422b924f-40bd-4ea9-9766-16415e22b47d" absoluteBounds="6.265, 1.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f38270de-c14c-4eac-a46f-a800762e9b10" absoluteBounds="3.5, 1, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/RBModelDataContext/Sach" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0bf337f8-419a-404a-9c8b-06272941f120" absoluteBounds="3.515, 1.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8afa9480-663b-4e3d-af0f-8b459436272c" absoluteBounds="0.75, 1.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/RBModelDataContext/ChuyenMuc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25e8b52d-ddd4-4d3c-aa98-039bd4b9d580" absoluteBounds="0.765, 2.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8011b4ee-9984-4f80-8043-7dac360ef6fe" absoluteBounds="0.75, 5.5, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/RBModelDataContext/NhaXuatBan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ec5b33d0-fa70-46b2-b11e-789ca77a524e" absoluteBounds="0.765, 5.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 2.28929768880208); (6.25 : 2.28929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/RBModelDataContext/Sach/Sach_Chuong" />
+      <nodes>
+        <classShapeMoniker Id="f38270de-c14c-4eac-a46f-a800762e9b10" />
+        <classShapeMoniker Id="1736db27-2b5a-4c37-a931-2f2757b3001a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.34699625651042); (3.5 : 2.34699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/RBModelDataContext/ChuyenMuc/ChuyenMuc_Sach" />
+      <nodes>
+        <classShapeMoniker Id="8afa9480-663b-4e3d-af0f-8b459436272c" />
+        <classShapeMoniker Id="f38270de-c14c-4eac-a46f-a800762e9b10" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 6.38544840494792); (4.5 : 6.38544840494792); (4.5 : 3.73240397135417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/RBModelDataContext/NhaXuatBan/NhaXuatBan_Sach" />
+      <nodes>
+        <classShapeMoniker Id="8011b4ee-9984-4f80-8043-7dac360ef6fe" />
+        <classShapeMoniker Id="f38270de-c14c-4eac-a46f-a800762e9b10" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f92e00</color>
+    <color name="colorPrimaryDark">#f92e00</color>
+    <color name="colorAccent">#f92e00</color>
+    <color name="color_bg">#df2352</color>
+
+
+    <color name="av_color1">#f7b09e</color>
+    <color name="av_color2">#f0979b</color>
+    <color name="av_color3">#e36a97</color>
+    <color name="av_color4">#bc428b</color>
+
+    <color name="av_color_bg">#8f367c</color>
+
+    <array name="av_colors">
+        <item>@color/av_color4</item>
+        <item>@color/av_color3</item>
+        <item>@color/av_color2</item>
+        <item>@color/av_color1</item>
+    </array>
+</resources>

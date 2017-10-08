@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemCNDD"
+        android:title="Cong nghe di dong"></item>
+    <item
+        android:id="@+id/itemCNWEB"
+        android:title="Cong nghe Web"></item>
+    <item
+        android:id="@+id/itemNhung"
+        android:title="Cong nghe Nhung"></item>
+    <item
+        android:id="@+id/itemTester"
+        android:title="Kiem thu phan mem"></item>
+    <item
+        android:id="@+id/itemMang"
+        android:title="Mang may tinh"></item>
+</menu>

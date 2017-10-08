@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#f7fcc4"
+    tools:context="com.example.alone.wifimanager.WIFI">
+
+    <TextView
+        android:id="@+id/txtWIFI"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="Working with Wifi"
+        android:textSize="30dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:text="Wifi Status: " />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txtListAvailable"
+        android:textSize="16dp"
+        android:textColor="#fc0b0b"
+        android:text="Offline!"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvwList"
+        android:textColor="#0804f4"></ListView>
+</LinearLayout>

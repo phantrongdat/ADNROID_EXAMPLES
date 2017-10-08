@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Cẩm nang ẩm thực</string>
+    <string name="app_name_title">Mobile Truyện</string>
+    <string name="story_audio_title">Audio Truyện</string>
+    <string name="story_hot_title">Truyện Được Ưu Thích Nhất</string>
+    <string name="story_new_title">Truyện Mới</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="setting_title">Cài đặt</string>
+    <string name="help_title">Trợ giúp</string>
+</resources>
+

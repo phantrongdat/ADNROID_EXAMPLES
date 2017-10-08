@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5fff9"
+    android:orientation="vertical">
+
+    TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#0785fc"
+        android:gravity="right"
+        android:text="QUAN LY MON HOC"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#faf9f9"
+        android:textSize="30dp" />
+
+    TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#edfcb9"
+        android:gravity="right|top"
+        android:text="TT  MON HOC"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#f12020" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#26d3fa"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="6dp"
+        android:text="Danh sách môn học"
+        android:gravity="left|center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff4709" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView3"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+
+	Kho sách:
+		Lấy list sách mói nhất
+		Lấy list sách đọc nhiều (Dựa vào số lượt xem)
+		Lấy list sách nổi bật (Dựa vào lượt yêu thích)
+
+	Tủ sách:
+		Lưu trữ sách ->> đọc ofline
+		Lọc theo chuyên mục
+
+	Danh mục:
+		Lấy sách theo chuyên mục (chuyên mục có sách sẽ tự được hiển thị)
+
+	Giỏ sách:
+		Lấy thông tin sách
+		Cho phép donwload lưu trữ đọc sách offine
+		Đánh giá ( sách yêu thích)
+		Lấy list sách liên quan
+
+	Đọc sách:
+		Đọc sách theo chương
+
+	Tìm kiếm:
+	...
+	update...

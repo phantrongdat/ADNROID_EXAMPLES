@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5fff9"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#26d3fa"
+        android:layout_marginTop="6dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Nhập mã sinh viên"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff7c09" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#c1f7ec">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtMaSV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:text="Mã sinh viên: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edt1"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="ok"
+        android:text="OK" />
+</LinearLayout>

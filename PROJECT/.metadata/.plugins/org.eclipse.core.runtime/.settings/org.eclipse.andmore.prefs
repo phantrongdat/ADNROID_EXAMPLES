@@ -1,0 +1,7 @@
+design.palette.flyout.width=150
+eclipse.preferences.version=1
+org.eclipse.andmore.autoPickTarget=false
+org.eclipse.andmore.fixLegacyEditors=1
+org.eclipse.andmore.palette=ICON_TEXT
+org.eclipse.andmore.sdk=E\:\\SUPPORT\\Android\\sdk
+org.eclipse.andmore.xmlEditor=true

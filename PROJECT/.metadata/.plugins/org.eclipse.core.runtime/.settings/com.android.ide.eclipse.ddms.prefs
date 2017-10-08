@@ -1,0 +1,14 @@
+com.android.ide.eclipse.ddms.defaultHeapUpdateEnabled=true
+com.android.ide.eclipse.ddms.defaultThreadUpdateEnabled=true
+com.android.ide.eclipse.ddms.logLevel=debug
+com.android.ide.eclipse.ddms.useAdbHost=true
+ddms.logcat.auotmonitor.level=debug
+ddms.logcat.automonitor.userprompt=true
+eclipse.preferences.version=1
+logcat.view.colsize.Application=225
+logcat.view.colsize.Level=29
+logcat.view.colsize.PID=50
+logcat.view.colsize.TID=50
+logcat.view.colsize.Tag=168
+logcat.view.colsize.Text=543
+logcat.view.colsize.Time=130

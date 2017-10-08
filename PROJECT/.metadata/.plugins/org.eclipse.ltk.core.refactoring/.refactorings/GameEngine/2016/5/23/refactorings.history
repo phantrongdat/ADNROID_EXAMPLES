@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extracts string &apos;Button&apos; into R.string.button" description="Extracts string &apos;Button&apos; into R.string.button" file="/GameEngine/res/layout/activity_main.xml" flags="6" id="com.android.ide.eclipse.adt.refactoring.extract.string" mode="EDIT_SOURCE" proj="/GameEngine" rplc-all-java="false" rplc-all-xml="false" sel-end="1004" sel-start="984" stamp="1464628194539" tok-esc="Button" xml-attr-name="android:text"/>
+</session>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.SelectRecipientsListItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@id/separator"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="?android:listPreferredItemHeight"
+        android:orientation="horizontal">
+
+        <android.widget.QuickContactBadge
+            android:id="@id/avatar"
+            style="?android:attr/quickContactBadgeStyleWindowLarge"
+            android:layout_width="@dimen/avatar_width_height"
+            android:layout_height="@dimen/avatar_width_height"
+            android:layout_gravity="center_vertical" />
+
+        <RelativeLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="8.0dip"
+            android:layout_weight="1.0">
+
+            <TextView
+                android:id="@id/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:singleLine="true"
+                android:textAllCaps="true"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textSize="12.0sp" />
+
+            <TextView
+                android:id="@id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@id/label"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <TextView
+                android:id="@id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_below="@id/name"
+                android:layout_toLeftOf="@id/label"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <CheckBox
+                android:id="@id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/label"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_centerVertical="true"
+                android:clickable="false"
+                android:focusable="false" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:listDivider" />
+</com.android.mms.ui.SelectRecipientsListItem>

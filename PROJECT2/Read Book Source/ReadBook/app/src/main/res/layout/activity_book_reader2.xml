@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context="info.hungmanh.readbook.BookReader">
+
+    <include layout="@layout/toolbar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/mswip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtDetail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Đang tải dữ liệu..."
+                        android:textSize="20dp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp">
+
+                        <Button
+                            android:id="@+id/nextChapter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="38dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_gravity="right"
+                            android:background="@drawable/button_read_book"
+                            android:drawableRight="@drawable/ic_arrow_forward"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:text="Chương sau"
+                            android:textColor="#ffffff"
+                            android:visibility="invisible" />
+
+                        <Button
+                            android:id="@+id/preChapter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="38dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_gravity="left"
+                            android:background="@drawable/button_read_book"
+                            android:drawableLeft="@drawable/ic_arrow_back"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:text="Chương trước"
+                            android:textColor="#ffffff"
+                            android:visibility="invisible" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </ScrollView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

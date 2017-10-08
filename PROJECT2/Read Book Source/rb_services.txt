@@ -1,0 +1,12 @@
+
+- Lấy list Sách
+- Lấy list Sách order by LuotXem DESC
+- Lấy list Sách order by YeuThich DESC
+- Lấy sách qua ( Mã sách)
+- Lấy list Sách qua ( Mã chuyên mục)
+
+- Lấy danh sách các Chuyên mục
+
+- Lấy Chương thông qua ( Mã Sách, mã Chương)
+
+- Tìm kiếm ( gần đúng với Tên sách) -> trả ra list Sách

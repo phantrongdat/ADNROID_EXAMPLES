@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.AudioAttachmentView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/audio_attachment_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/attachment_editor_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingRight="5.0dip">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10.0dip"
+            android:src="@drawable/ic_attach_capture_audio_holo_light" />
+
+        <TextView
+            android:id="@id/audio_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@id/album_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@id/artist_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@id/audio_error_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/text_color_red"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="8.0dip">
+
+        <Button
+            android:id="@id/play_audio_button"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="100.0dip"
+            android:layout_height="45.0dip"
+            android:text="@string/play"
+            android:textColor="@color/button_text" />
+
+        <Button
+            android:id="@id/replace_audio_button"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="100.0dip"
+            android:layout_height="45.0dip"
+            android:text="@string/replace"
+            android:textColor="@color/button_text" />
+
+        <Button
+            android:id="@id/remove_audio_button"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="100.0dip"
+            android:layout_height="45.0dip"
+            android:text="@string/remove"
+            android:textColor="@color/button_text" />
+    </LinearLayout>
+</com.android.mms.ui.AudioAttachmentView>
